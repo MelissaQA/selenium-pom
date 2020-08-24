@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DropdownSuite]">
+  <test thread-count="5" name="TC_SelectOneOption_Chrome(failed)">
+    <classes>
+      <class name="dropdownpagetests.DropdownTests">
+        <methods>
+          <include name="selectOptionOneTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- dropdownpagetests.DropdownTests -->
+    </classes>
+  </test> <!-- TC_SelectOneOption_Chrome(failed) -->
+</suite> <!-- Failed suite [DropdownSuite] -->
